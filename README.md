@@ -1,9 +1,7 @@
 #誰是幸運兒
 
 https://hackmd.io/7b_uqvd2SNKUtY5p1mXxNg?view
-教室大小為 n * n，每次點名輸入座號 玩大十字
-重複點名，直到教室內被點到低於 3 次(不包含 3) 的學生少於5個 (不包含 5)
-最後印出剩下學生的座號
+
 ```python
 n=int(input()) #教室大小=n*n
 a=[[0]*n for i in range(n)]  #教室圖矩陣
